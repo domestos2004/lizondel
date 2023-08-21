@@ -1,0 +1,50 @@
+.overlay h1 {
+    margin-top: 20%;
+}
+
+.fullscreen-bg__img {
+    filter: hue-rotate(10deg);
+}
+
+/* ------- */
+
+.padded-multiline { 
+    background: url(../img/philosophy.jpg) no-repeat left -100px;
+    filter: hue-rotate(180deg);
+    line-height: 1.4; 
+    padding: 15px 15px 15px 15px;
+    width: 400px;
+    margin-top: 100px;
+    margin-bottom: 25px;
+  }
+
+  .padded-multiline span { 
+    background-color: black;
+    color: #fff; 
+    display: inline;
+    padding: 0.5rem;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+  }
+
+  p {
+    text-align: justify;
+  }
+
+  mark {
+    background-color: rgb(250, 183, 86);
+  }
+
+  @media (max-width: 640px) {
+    .padded-multiline { 
+      background: url(../img/philosophy.jpg) no-repeat left -100px;
+      filter: hue-rotate(180deg);
+      line-height: 1.4; 
+      padding: 15px 15px 15px 15px;
+      width: 250px;
+      font-size: 25px;
+      margin-top: 100px;
+      margin-bottom: 25px;
+    }
+}
+    
